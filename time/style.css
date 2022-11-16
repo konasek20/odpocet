@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+.brzy {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.odpocet {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.den,
+.hodina,
+.minuta,
+.vterina  {
+    font-size: 3rem;
+}
