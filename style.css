@@ -1,43 +1,59 @@
 * {
-    margin: 0;
-    padding: 0;
-    width: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-}
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
-    background-image: url(/blob-scene-haikei.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  background-image: url(/blob-scene-haikei.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
 h2 {
-    font-size: 5rem;
-    font-weight: bold;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
 }
+
 .brzy {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
+
 .odpocet {
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .den,
 .hodina,
 .minuta,
-.vterina  {
-    font-size: 3rem;
+.vterina {
+  font-size: 3rem;
+  text-align: center;
 }
 
 .name {
-    text-align: bottom;
-    font-size: 0.8rem;
-    text-align: center;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  .den,
+  .hodina,
+  .minuta,
+  .vterina {
+    font-size: 2rem;
+  }
 }
