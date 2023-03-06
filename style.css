@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+.Denos,
+.Hodinos,
+.Minutos,
+.Vterinos{
+
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: aliceblue;
@@ -35,10 +48,11 @@ h2 {
 .den,
 .hodina,
 .minuta,
-.vterina {
+.vterina{
   font-size: 3rem;
   text-align: center;
 }
+
 
 .name {
   font-size: 0.8rem;
